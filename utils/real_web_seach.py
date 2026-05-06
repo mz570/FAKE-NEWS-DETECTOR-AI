@@ -190,7 +190,7 @@ def init_web_search():
     """Initialize web search with API key"""
     # You can set your key here directly (temporary)
     # Get free key from https://serpapi.com/
-    YOUR_API_KEY = "2735a594231069a3c483d695d016790955652a3c5bbc49ad35564ff84575c82a"  # <-- PASTE YOUR API KEY HERE
+    YOUR_API_KEY = "*******************************************************"  # <-- PASTE YOUR API KEY HERE
     
     if YOUR_API_KEY:
         return RealWebSearch(api_key=YOUR_API_KEY)
