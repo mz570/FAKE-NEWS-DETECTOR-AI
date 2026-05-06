@@ -112,11 +112,10 @@ This app can be deployed anywhere that supports Streamlit (local machine, Stream
 For deployments, prefer environment variables / secrets management instead of committing `serpapi_key.txt`.
 
 ---
+Note:
+paste your serp_api key or any web api key here:
+utils/_pycache_/real_web_search.py
 
-## Security
-
-- Do **not** commit `serpapi_key.txt`.
-- Add it to `.gitignore`.
 
 ---
 
