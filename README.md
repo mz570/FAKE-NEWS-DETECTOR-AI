@@ -114,7 +114,12 @@ For deployments, prefer environment variables / secrets management instead of co
 ---
 Note:
 paste your serp_api key or any web api key here:
-utils/_pycache_/real_web_search.py
+utils/_pycache_/real_web_search.py:
+def init_web_search():
+    """Initialize web search with API key"""
+    # You can set your key here directly (temporary)
+    # Get free key from https://serpapi.com/
+    YOUR_API_KEY = "*******************************************************"  # <-- PASTE YOUR API KEY HERE
 
 
 ---
