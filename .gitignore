@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# SerpApi secrets
+serpapi_key.txt
+
+# Model artifacts (optional; keep if you want them committed)
+model/*.pkl
+model/*.txt
+
+# Graph artifacts
+graph/*.gpickle
+
